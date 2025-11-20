@@ -20,6 +20,34 @@
 #degradado {
     background-image: linear-gradient(purple, white);
 }
-ul:nth-child(odd) {
-
+li:nth-child(1), 
+li:nth-child(3)  {
+    color: red;
+}
+li:nth-child(2),
+li:nth-child(4),
+li:nth-child(5)  {
+    color: blue;
+}
+tbody>tr:nth-child(odd) {
+    background-color: #FF6666;
+}
+tbody>tr:nth-child(even) {
+    background-color: #A3CEEF;
+}
+thead>tr {
+    background-color: black;
+    color: white;
+}
+table:hover {
+    font-weight: bold;
+}
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+img:hover {
+    border: red solid 3px;
 }
