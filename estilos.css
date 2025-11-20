@@ -17,3 +17,9 @@
 .punto5-3 {
     color: chocolate;
 }
+#degradado {
+    background-image: linear-gradient(purple, white);
+}
+ul:nth-child(odd) {
+
+}
